@@ -15,16 +15,15 @@ const skills = [
 
 return (
     <section id="skills">
-      <h2>My Skills</h2>
+      
       <div className="skills-container">
         {skills.map((skill, index) => (
           <div className="skill-card" key={index}>
-            <div className="skill-icon">{skill.icon}</div> {/* Display icon */}
+            <div className="skill-icon">{skill.icon}</div>
             <div className="skill-details">
               <h3>{skill.name}</h3>
               <p>Level: {skill.level}</p>
               <p>Category: {skill.category}</p>
-              {/* Progress Bar */}
               <div className="progress-bar">
                 <div
                   className="progress-bar-fill"

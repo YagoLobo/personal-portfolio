@@ -4,7 +4,7 @@ import '../styles/components.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>© 2025 Your Name. All Rights Reserved.</p>
+      <p>© 2025 Yago Lobo Valenca. All Rights Reserved.</p>
     </footer>
   );
 };

@@ -10,6 +10,7 @@ import SocialLinks from './components/SocialLinks';
 import AnimatedContent from './components/AnimatedContent'
 import FadeContent from './components/FadeContent';
 import Skills from './components/Skills';
+import LogoWall from './components/LogoWall';
 
 import './styles/App.css';
 import './styles/SocialLinks.css'
@@ -19,6 +20,7 @@ import './styles/Resume.css'
 import './styles/ProfileImage.css'
 import './styles/Projects.css'
 import './styles/Skills.css'
+import './styles/LogoWall.css'
 
 const App = () => {
   return (
@@ -34,14 +36,24 @@ const App = () => {
           animateOpacity
           scale={1.1}
           threshold={0.2}
->
+        >
           <div><ProfileImage /></div>
         </AnimatedContent>
         <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
           {<About />}
         </FadeContent>
       </div>
-      <Skills/>
+      <div style={{height: 'auto', width: '100%', position: 'relative'}}>
+        <LogoWall
+          ItemComponent={Skills}
+          direction='horizontal'
+          pauseOnHover={false}
+          size='clamp(8rem, 1rem + 20vmin, 25rem)'
+          duration='60s'
+          bgColor='#060606'
+          bgAccentColor='#111111'
+        />  
+      </div>
       <Projects />
       <Resume />
       <ContactForm />

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import '../styles/components.css';
+import '../styles/Resume.css';
 
 const Resume = () => {
   const [isFullMode, setIsFullMode] = useState(false);
@@ -13,7 +13,7 @@ const Resume = () => {
       <h2>My Resume</h2>
       {!isFullMode ? (
         
-        <div className="resume-thumbnail" onClick={handleToggle}>
+        <div className="resume-thumbnail">
           <iframe
             src="http://localhost:3000/curriculo.pdf"
             width="300px" 
@@ -21,7 +21,9 @@ const Resume = () => {
             style={{ border: '1px solid #ddd' }}
             title="Resume Thumbnail"
           ></iframe>
-          <p>Click to view full resume</p>
+          <div className='full-btn'>
+            <button  className="btn-to-full"onClick={handleToggle}>Click to view full resume</button>
+          </div>
         </div>
       ) : (
         

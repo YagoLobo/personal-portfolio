@@ -22,10 +22,11 @@
   }
   
   form button {
-    background-color: #007bff;
+    background-color: #1fd2a5;
     color: white;
     border: none;
     cursor: pointer;
+    width: 106%;
   }
   
   form button:hover {

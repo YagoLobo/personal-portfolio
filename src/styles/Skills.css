@@ -21,9 +21,9 @@
  
   .skill-card {
     background: #111; 
-    border: 1px solid #444; 
+    border: 1px solid #186d58; 
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px rgba(9, 21, 131, 0.868);
     padding: 1rem;
     width: 250px; 
     text-align: left; 
