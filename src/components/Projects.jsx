@@ -3,7 +3,7 @@ import '../styles/components.css';
 
 const Projects = () => {
   const projectList = [
-    { title: 'Project 1', description: 'Description of project 1', link: '#' },
+    { title: 'ML Xperience', description: 'Chatbox with AI that allows you to create, edit and talk to an "persona" of your choice!', link: 'https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-proj-ml-experience/codigo-fonte/src/index.html' },
     { title: 'Project 2', description: 'Description of project 2', link: '#' },
   ];
 

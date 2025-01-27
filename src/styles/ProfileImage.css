@@ -1,0 +1,37 @@
+  
+#profile-about-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    background-color: #080809; 
+    color: rgb(255, 255, 255);
+    height: 50%; 
+  }
+
+  #profile-about-container > * { 
+    flex: 1;
+    max-width: 50%; 
+  }
+
+
+  #profile {
+    flex: 1; 
+    max-width: 100%; 
+    text-align: center; 
+  }
+  
+  .profile-box {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    border: 3px solid, #1fd2a5; 
+    margin: 0 auto; 
+  }
+  
+  .profile-box img {
+    width: 100%;
+    height: 120%;
+    object-fit: cover; 
+  }

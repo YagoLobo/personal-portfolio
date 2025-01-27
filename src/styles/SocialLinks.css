@@ -1,0 +1,22 @@
+#social-links {
+    padding: 4rem 1rem;
+    background-color: #242424;
+    color:white
+  }
+  
+  #social-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  #social-links ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.5rem;
+  }
+  
+  #social-links ul li a:hover {
+    color: #0056b3;
+  }

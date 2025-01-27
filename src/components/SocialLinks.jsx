@@ -2,8 +2,8 @@ import React from 'react';
 
 const SocialLinks = () => {
   const socialLinks = [
-    { platform: 'LinkedIn', url: 'https://linkedin.com/in/yourprofile' },
-    { platform: 'GitHub', url: 'https://github.com/yourusername' },
+    { platform: 'LinkedIn', url: 'https://www.linkedin.com/in/yago-lobo-9704a6291/' },
+    { platform: 'GitHub', url: 'https://github.com/YagoLobo' },
     { platform: 'Twitter', url: 'https://twitter.com/yourusername' },
   ];
 
