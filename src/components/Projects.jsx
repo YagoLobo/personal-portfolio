@@ -1,25 +1,22 @@
-import React from 'react';
-import '../styles/components.css';
+import React from "react";
+import "../styles/Projects.css"; // Optional styling
 
-const Projects = () => {
-  const projectList = [
-    { title: 'ML Xperience', description: 'Chatbox with AI that allows you to create, edit and talk to an "persona" of your choice!', link: 'https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-proj-ml-experience/codigo-fonte/src/index.html' },
-    { title: 'Project 2', description: 'Description of project 2', link: '#' },
-  ];
-
+const Projects = ({link, image }) => {
   return (
-    <section id="projects" className="projects-section">
-      <h2>Projects</h2>
-      <div className="projects">
-        {projectList.map((project, index) => (
-          <div key={index} className="project-card">
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
-          </div>
-        ))}
+    <div
+      className="project-card"
+      style={{ backgroundImage: `url(${image})` , backgroundSize: "cover", backgroundPosition: "center"}} // Dynamic Background
+    >
+      <div className="overlay">
+        <div className="project-content">
+        </div>
+        <div className="project-footer">
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            View Project
+          </a>
+        </div>
       </div>
-    </section>
+    </div>
   );
 };
 

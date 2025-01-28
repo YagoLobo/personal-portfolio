@@ -4,23 +4,23 @@ import ProfileImage from './components/ProfileImage';
 import About from './components/About';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
-import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import SocialLinks from './components/SocialLinks';
 import AnimatedContent from './components/AnimatedContent'
 import FadeContent from './components/FadeContent';
 import Skills from './components/Skills';
 import LogoWall from './components/LogoWall';
+import Stack from './components/Stacks';
 
 import './styles/App.css';
 import './styles/SocialLinks.css'
 import './styles/About.css'
-import './styles/ContactForm.css'
 import './styles/Resume.css'
 import './styles/ProfileImage.css'
 import './styles/Projects.css'
 import './styles/Skills.css'
 import './styles/LogoWall.css'
+import './styles/Stacks.css'
 
 const App = () => {
   return (
@@ -54,9 +54,17 @@ const App = () => {
           bgAccentColor='#111111'
         />  
       </div>
-      <Projects />
+      <Stack
+        randomRotation={true}
+        sensitivity={180}
+        sendToBackOnClick={true}
+        cardDimensions={{ width: 600, height: 350 }}
+        cardsData={[
+          { id: 1, component: <Projects  link="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-proj-ml-experience/codigo-fonte/src/index.html" image="http://localhost:3000/MLXP.PNG"/> },
+          { id: 2, component: <Projects link="https://wecoop.xyz/feed?activeFeed=global" image="http://localhost:3000/wcimg.PNG"/> },
+      ]}
+      />
       <Resume />
-      <ContactForm />
       <SocialLinks />
       <Footer />
     </div>

@@ -1,0 +1,47 @@
+.stack-container {
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-rotate {
+    position: absolute;
+    will-change: transform;
+  }
+  
+  .card {
+    background: #111;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .card:hover {
+    background: #222;
+  }
+  
+  /* Project Component Styling */
+  .project-card {
+    background-size: cover;
+    text-align: center;
+    background: #222;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .project-card h3 {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+  
