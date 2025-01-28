@@ -5,12 +5,12 @@ import '../styles/components.css';
 const Skills = () => {
     
 const skills = [
-    { name: 'JavaScript', icon: '🟨', level: 'Advanced', category: 'Language', percentage: 90 },
-    { name: 'Python', icon: '🐍', level: 'Intermediate', category: 'Language', percentage: 70 },
-    { name: 'React.js', icon: '⚛️', level: 'Advanced', category: 'Framework', percentage: 85 },
-    { name: 'Node.js', icon: '🟩', level: 'Intermediate', category: 'Framework', percentage: 75 },
-    { name: 'HTML & CSS', icon: '🌐', level: 'Advanced', category: 'Language', percentage: 95 },
-    { name: 'Django', icon: '🟢', level: 'Beginner', category: 'Framework', percentage: 50 },
+    { name: 'JavaScript', icon: '🟨', level: 'Advanced', category: 'Language'},
+    { name: 'Python', icon: '🐍', level: 'Intermediate', category: 'Language'},
+    { name: 'React.js', icon: '⚛️', level: 'Advanced', category: 'Framework'},
+    { name: 'Node.js', icon: '🟩', level: 'Intermediate', category: 'Framework'},
+    { name: 'HTML & CSS', icon: '🌐', level: 'Advanced', category: 'Language'},
+    { name: 'Django', icon: '🟢', level: 'Beginner', category: 'Framework'},
 ];
 
 return (
@@ -24,12 +24,6 @@ return (
               <h3>{skill.name}</h3>
               <p>Level: {skill.level}</p>
               <p>Category: {skill.category}</p>
-              <div className="progress-bar">
-                <div
-                  className="progress-bar-fill"
-                  style={{ width: `${skill.percentage}%` }}
-                ></div>
-              </div>
             </div>
           </div>
         ))}

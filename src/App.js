@@ -47,9 +47,9 @@ const App = () => {
         <LogoWall
           ItemComponent={Skills}
           direction='horizontal'
-          pauseOnHover={false}
+          pauseOnHover={true}
           size='clamp(8rem, 1rem + 20vmin, 25rem)'
-          duration='60s'
+          duration='15s'
           bgColor='#060606'
           bgAccentColor='#111111'
         />  

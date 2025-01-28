@@ -1,7 +1,7 @@
 :root {
     --color-text: #ffffff;
-    --color-bg: #060606;
-    --color-bg-accent: #111111;
+    --color-bg: #080809;
+    --color-bg-accent: #080809;
     --size: clamp(10rem, 1rem + 40vmin, 30rem);
     --gap: calc(var(--size) / 14);
     --duration: 60s;
@@ -119,6 +119,7 @@
     width: calc(var(--size) / 1.5);
     padding: calc(var(--size) / 6);
   }
+  
   h2{
     text-align: center;
   }
