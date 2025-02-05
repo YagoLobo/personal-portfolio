@@ -16,7 +16,7 @@
     padding: 20px 10px;
   
     color: var(--color-text);
-    background-color: var(--color-bg);
+    background-color: #080809 ;
   }
   
   .wrapper--vertical {
@@ -107,7 +107,7 @@
   
   .marquee__group img {
     width: var(--size);
-    background: var(--color-bg-accent);
+    background: var(--color-bg);
     aspect-ratio: 16/9;
     padding: calc(var(--size) / 10);
     border-radius: 0.5rem;

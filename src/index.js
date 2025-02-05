@@ -4,6 +4,7 @@ import './styles/App.css'; // Import global styles
 import './styles/components.css'; // Import component-specific styles
 import App from './App'
 
+
 // Find the root element in your HTML
 const rootElement = document.getElementById('root');
 

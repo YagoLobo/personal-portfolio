@@ -49,7 +49,7 @@ const App = () => {
           direction='horizontal'
           pauseOnHover={true}
           size='clamp(8rem, 1rem + 20vmin, 25rem)'
-          duration='15s'
+          duration='10s'
           bgColor='#060606'
           bgAccentColor='#111111'
         />  
@@ -58,10 +58,10 @@ const App = () => {
         randomRotation={true}
         sensitivity={180}
         sendToBackOnClick={true}
-        cardDimensions={{ width: 600, height: 350 }}
+        cardDimensions={{ width: 500, height: 250}}
         cardsData={[
           { id: 1, component: <Projects  link="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-proj-ml-experience/codigo-fonte/src/index.html" image="http://localhost:3000/MLXP.PNG"/> },
-          { id: 2, component: <Projects link="https://wecoop.xyz/feed?activeFeed=global" image="http://localhost:3000/wcimg.PNG"/> },
+          { id: 2, component: <Projects link="https://wecoop.xyz/feed?activeFeed=global" image="http://localhost:3000/wecoopimg.jpeg"/> },
       ]}
       />
       <Resume />

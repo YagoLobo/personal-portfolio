@@ -8,8 +8,7 @@ const ProfileImage = () => {
       <div className="profile-box">
         <img src={profile} alt="Your Profile" />
       </div>
-      <h1>Yago Lobo Valenca</h1>
-      <p>Developer</p>
+      <p>Python | React | JS | Full-Stack Developer</p>
     </section>
   );
 };

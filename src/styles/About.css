@@ -1,18 +1,32 @@
-/* About Section Styles */
 #about {
-    flex: 2; 
-    max-width: 70%; 
-    padding: 1rem;
-    text-align: justify; 
-    background-color: #080809;
-  }
-  
-  #about h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  #about p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-  }
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  gap: 20px;
+  text-align: justify; /* Space between elements */
+}
+
+/* Title Styling */
+.title-about {
+  position: relative;
+  z-index: 2; /* Ensure it's above */
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Chat Bubble Styling */
+.chat-bubble {
+  position: relative;
+  width: 70%;
+  background: rgba(0, 255, 255, 0.15); /* Subtle cyan transparency */
+  border-radius: 20px;
+  padding: 15px;
+  z-index: 1; /* Behind title */
+  box-shadow: 0 4px 10px rgba(0, 227, 227, 0.3);
+}
+
+

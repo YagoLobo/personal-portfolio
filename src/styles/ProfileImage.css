@@ -7,13 +7,13 @@
     background-color: #080809; 
     color: rgb(255, 255, 255);
     height: 50%; 
+    font-size: x-large;
   }
 
   #profile-about-container > * { 
     flex: 1;
     max-width: 50%; 
   }
-
 
   #profile {
     flex: 1; 
@@ -36,3 +36,10 @@
     height: 120%;
     object-fit: cover; 
   }
+  .profile-box{
+    width: 20rem;
+    height: 23rem;
+  }
+ .p {
+  margin-top: 1rem;
+ }

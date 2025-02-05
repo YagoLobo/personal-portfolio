@@ -5,12 +5,11 @@ import '../styles/components.css';
 const Skills = () => {
     
 const skills = [
-    { name: 'JavaScript', icon: '🟨', level: 'Advanced', category: 'Language'},
-    { name: 'Python', icon: '🐍', level: 'Intermediate', category: 'Language'},
-    { name: 'React.js', icon: '⚛️', level: 'Advanced', category: 'Framework'},
-    { name: 'Node.js', icon: '🟩', level: 'Intermediate', category: 'Framework'},
+    { name: 'JavaScript', icon: '🟨', level: 'Intermediate', category: 'Language'},
+    { name: 'Python', icon: '🐍', level: 'Advanced', category: 'Language'},
+    { name: 'React.js', icon: '⚛️', level: 'Intermediate', category: 'Framework'},
+    { name: 'Node.js', icon: '🟩', level: 'Beginner', category: 'Framework'},
     { name: 'HTML & CSS', icon: '🌐', level: 'Advanced', category: 'Language'},
-    { name: 'Django', icon: '🟢', level: 'Beginner', category: 'Framework'},
 ];
 
 return (
