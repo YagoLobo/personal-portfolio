@@ -1,11 +1,12 @@
 import React from 'react';
 import '../styles/Resume.css';
+import { FaFileDownload } from "react-icons/fa";
 
 const Resume = ({ resumeLink }) => {
   return (
     <section id="resume">
-      <h2>Resume</h2>
-      <a href={resumeLink} target="_blank" rel="noopener noreferrer">Download Resume</a>
+      <p>Download Resume</p>
+      <a href="./public/curriculo.pdf"><FaFileDownload/></a>
     </section>
   );
 };

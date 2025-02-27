@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Projects.css"; // Optional styling
+import "../styles/Projects.css"; 
 
 const Projects = ({link, image }) => {
   return (

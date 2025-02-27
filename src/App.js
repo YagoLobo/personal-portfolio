@@ -3,7 +3,6 @@ import Header from './components/Header';
 import ProfileImage from './components/ProfileImage';
 import About from './components/About';
 import Projects from './components/Projects';
-import Resume from './components/Resume';
 import Footer from './components/Footer';
 import SocialLinks from './components/SocialLinks';
 import AnimatedContent from './components/AnimatedContent'
@@ -43,17 +42,19 @@ const App = () => {
           {<About />}
         </FadeContent>
       </div>
+      <h1 className='title-skills'> Skills</h1>
       <div style={{height: 'auto', width: '100%', position: 'relative'}}>
         <LogoWall
           ItemComponent={Skills}
           direction='horizontal'
           pauseOnHover={true}
-          size='clamp(8rem, 1rem + 20vmin, 25rem)'
-          duration='10s'
+          size='clamp(8rem, 1rem + 20vmin, 1rem)'
+          duration='30s'
           bgColor='#060606'
           bgAccentColor='#111111'
         />  
       </div>
+      <h1 className='title-projects'>My Projects</h1>
       <Stack
         randomRotation={true}
         sensitivity={180}
@@ -64,7 +65,8 @@ const App = () => {
           { id: 2, component: <Projects link="https://wecoop.xyz/feed?activeFeed=global" image="http://localhost:3000/wecoopimg.jpeg"/> },
       ]}
       />
-      <Resume />
+
+
       <SocialLinks />
       <Footer />
     </div>

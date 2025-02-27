@@ -1,8 +1,11 @@
 #resume {
     background-color: #080809;
-    padding: 3rem 1rem;
     color:white
   }
   
+  a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+  }
 
   
